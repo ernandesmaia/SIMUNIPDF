@@ -1,0 +1,22 @@
+{
+  "name": "simunipdf",
+  "version": "1.0.0",
+  "description": "Trabalho realizado como requisito avaliativo do componente curricular TESC I",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "Dyego Magno & Ernandes Maia",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.8.11",
+    "pusher": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
